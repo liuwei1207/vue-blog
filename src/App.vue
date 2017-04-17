@@ -1,13 +1,12 @@
 <template>
     <div id="app">
-        <SiteHeader></SiteHeader>
-        <div class="site-content">
-            22
-        </div>
+        <Site-Header></Site-Header>
+        <!-- 一级路由 -->
+        <router-view></router-view>
     </div>
 </template>
 <script>
-import SiteHeader from './components/SiteHeader.vue';
+import SiteHeader from './components/common/SiteHeader.vue';
 export default {
     data() {
             return {

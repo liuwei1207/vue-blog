@@ -10,8 +10,20 @@
 
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
   overflow-y: scroll; /* All browsers without overlaying scrollbars */
   -webkit-text-size-adjust: 100%; /* iOS 8+ */
+}
+
+body{
+  font-size: 16pt;
+  color: #a2a2a2;
+}
+
+@media screen and (max-width: 980px) {
+    body{
+      font-size: 12px;
+    }
 }
 
 *,
